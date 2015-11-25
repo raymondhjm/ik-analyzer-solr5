@@ -3,7 +3,7 @@ The original creator of IKAnalyzer is [Liang-Yi Lin ](linliangyi2007@gmail.com) 
 
 # Feature #
  - based on IK Analyer 2012-FF Hotfix 1 
- - added support for Lucene 5.1.0 API
+ - added support for Lucene 5.3.1 API
 
 #Installation #
 
@@ -15,7 +15,7 @@ The original creator of IKAnalyzer is [Liang-Yi Lin ](linliangyi2007@gmail.com) 
 
 > mvn clean -Djavac.src.version=1.7 -Djavac.target.version=1.7 install
 
-copy ik-analyzer-solr5-5.x.jar to server/solr-webapp/webapp/WEB-INF/lib
+copy ik-analyzer-solr5-5.3.1.jar to server/solr-webapp/webapp/WEB-INF/lib
 
 # Configuration #
     <fieldType name="text_ik" class="solr.TextField">   
@@ -44,4 +44,3 @@ Answer: Please check your JAVA_HOME setting. If JAVA_HOME setting exists, it may
 
 # Resources #
 1. [Build IKAnalyzer With Solr 5.1.0](http://blog.univle.com/blog/2015/06/05/build-ikanalyzer-with-solr-5-dot-1-0/)
-    

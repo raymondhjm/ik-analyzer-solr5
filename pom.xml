@@ -4,7 +4,7 @@
 
   <groupId>org.wltea.ik-analyzer</groupId>
   <artifactId>ik-analyzer-solr5</artifactId>
-  <version>5.3.1-SNAPSHOT</version>
+  <version>5.3.1</version>
   <packaging>jar</packaging>
 
   <name>ik-analyzer-solr5</name>
