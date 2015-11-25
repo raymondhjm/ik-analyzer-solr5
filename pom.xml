@@ -4,7 +4,7 @@
 
   <groupId>org.wltea.ik-analyzer</groupId>
   <artifactId>ik-analyzer-solr5</artifactId>
-  <version>5.x</version>
+  <version>5.3.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>ik-analyzer-solr5</name>
@@ -13,7 +13,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-    <lucene.version>5.1.0</lucene.version>
+    <lucene.version>5.3.1</lucene.version>
 
     <javac.src.version>1.8</javac.src.version>
     <javac.target.version>1.8</javac.target.version>

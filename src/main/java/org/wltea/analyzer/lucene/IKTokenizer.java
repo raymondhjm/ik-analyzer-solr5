@@ -55,16 +55,15 @@ public final class IKTokenizer extends Tokenizer {
 	private TypeAttribute typeAtt;
 	//记录最后一个词元的结束位置
 	private int endPosition;
-	
-	/**
-	 * Lucene 4.0 Tokenizer适配器类构造函数
-	 * @param in
-	 * @param useSmart
-	 */
+
 	public IKTokenizer() {
-	    this(false);
+		this(false);
 	}
 
+	/**
+	 * Lucene 4.0 Tokenizer适配器类构造函数
+	 * @param useSmart
+	 */
 	public IKTokenizer(boolean useSmart) {
 		super();
 		init(useSmart);
